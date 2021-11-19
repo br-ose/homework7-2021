@@ -61,9 +61,7 @@ function pause() {
 } 
 function skip()
 {
-	console.log(video.currentTime)
 	var total = video.duration
-	console.log(total)
 	video.currentTime = video.currentTime + 10;
 	if (video.currentTime == total)
 	{
